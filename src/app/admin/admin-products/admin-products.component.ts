@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-admin-productsng',
-  templateUrl: './admin-productsng.component.html',
-  styleUrls: ['./admin-productsng.component.css']
+  selector: 'app-admin-products',
+  templateUrl: './admin-products.component.html',
+  styleUrls: ['./admin-products.component.css']
 })
-export class AdminProductsngComponent implements OnInit {
+export class AdminProductsComponent implements OnInit {
 
   constructor() { }
 
