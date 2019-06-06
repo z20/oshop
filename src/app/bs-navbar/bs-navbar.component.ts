@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
-import { AuthService } from '../auth.service';
+import { AuthService } from './../auth.service';
 
 
 @Component({
@@ -11,11 +10,10 @@ import { AuthService } from '../auth.service';
 export class BsNavbarComponent {
 
   constructor(public auth: AuthService) {
-    this.user$ = auth.authState;
    }
 
   logout() {
-    this.auth.signOut();
+    this.auth.logout();
   }
 
 }
